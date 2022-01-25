@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function Card({ title, subtitle, imageUrl }) {
   return (
-    <article className="font-medium break-words" key={key}>
+    <article className="break-words font-medium">
       <div className="aspect-w-4 aspect-h-3 mb-7">
         <Image layout="fill" objectFit="cover" src={imageUrl} alt="" />
       </div>
