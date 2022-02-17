@@ -1,4 +1,6 @@
-import Image from 'next/image';
+import Link from 'next/link';
+import { signIn, signOut, useSession } from 'next-auth/react';
+
 import { Button, Card } from '@components/ui';
 
 const apartments = [
@@ -41,8 +43,22 @@ const apartments = [
 ];
 
 export default function Home() {
+  const { data: session, status } = useSession();
+
   return (
     <section className="py-16 px-8 text-center uppercase lg:py-32 lg:px-16">
+      <div className="mb-8">
+        {status === 'authenticated' ? (
+          <>
+            <p className="mb-4 text-sm font-medium leading-7 tracking-[0.6em] text-[#c28562]">
+              welcome {session.user.name}
+            </p>
+            <Button onClick={() => signOut()}>Sign Out</Button>
+          </>
+        ) : (
+          <Button onClick={() => signIn('github')}>Sign In</Button>
+        )}
+      </div>
       <div className="mb-8">
         <h2 className="mb-3.5 font-serif text-4xl tracking-[0.15em] lg:text-6xl">Choose an Apartment</h2>
         <p className="text-sm font-medium leading-7 tracking-[0.6em] text-[#c28562]">
