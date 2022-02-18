@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { Image } from '@components/common';
 
 function Card({ title, subtitle, imageUrl }) {
   return (

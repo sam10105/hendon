@@ -8,37 +8,37 @@ const apartments = [
     id: 1,
     title: 'West Complex',
     subtitle: 'From 120 m2',
-    imageUrl: 'https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/h1-apart-feature-1.jpg',
+    imageUrl: 'wp-content/uploads/2020/05/h1-apart-feature-1.jpg',
   },
   {
     id: 2,
     title: 'Apartment Block',
     subtitle: 'From 120 m2',
-    imageUrl: 'https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/h1-apart-feature-2.jpg',
+    imageUrl: 'wp-content/uploads/2020/05/h1-apart-feature-2.jpg',
   },
   {
     id: 3,
     title: 'East Complex',
     subtitle: 'From 120 m2',
-    imageUrl: 'https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/h1-apart-feature-3.jpg',
+    imageUrl: 'wp-content/uploads/2020/05/h1-apart-feature-3.jpg',
   },
   {
     id: 4,
     title: 'Modern Studio ',
     subtitle: 'From 120 m2',
-    imageUrl: 'https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/h1-apart-feature-4.jpg',
+    imageUrl: 'wp-content/uploads/2020/05/h1-apart-feature-4.jpg',
   },
   {
     id: 5,
     title: 'South Complex',
     subtitle: 'From 120 m2',
-    imageUrl: 'https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/h1-apart-feature-5.jpg',
+    imageUrl: 'wp-content/uploads/2020/05/h1-apart-feature-5.jpg',
   },
   {
     id: 6,
     title: 'Modern Suite',
     subtitle: 'From 120 m2',
-    imageUrl: 'https://hendon.qodeinteractive.com/wp-content/uploads/2020/05/h1-apart-feature-6.jpg',
+    imageUrl: 'wp-content/uploads/2020/05/h1-apart-feature-6.jpg',
   },
 ];
 
